@@ -3,7 +3,7 @@ package com.chapter1.arraysAndstrings;
 public class Five {
     private static String l1, l2; // длинные, короткие строки
     private static boolean different; //различие между строками
-    private static int index1, index2; //казатель 1, 2 строки
+    private static int index1, index2; //указатель 1, 2 строки
 
     private static boolean isModify(String s1, String s2){
         if (Math.abs(s1.length() - s2.length())>1){
