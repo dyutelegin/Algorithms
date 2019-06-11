@@ -1,5 +1,7 @@
 package com.chapter4.Graphs;
 
+import java.util.LinkedList;
+
 public class One {
     enum State {
         Unvisited,
